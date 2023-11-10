@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "microfictions",
+  "info": {
+    "singularName": "microfiction",
+    "pluralName": "microfictions",
+    "displayName": "Microfiction"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "AnneeTitre": {
+      "type": "string"
+    },
+    "Texte": {
+      "type": "blocks"
+    },
+    "Annee": {
+      "type": "string"
+    },
+    "Mois": {
+      "type": "string"
+    },
+    "Jour": {
+      "type": "string"
+    },
+    "Illustration": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
